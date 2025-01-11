@@ -89,6 +89,11 @@ justify-content: center;
     height: 56px;
     
 }
+.banner-btn:hover{
+    background: rgb(255, 56, 1);
+    transition: all 0.5s ease; 
+
+}
 
 /* pillars of bd section styles*/
 .Pillars-container{
@@ -350,6 +355,10 @@ th{
     font-weight: 600;
     line-height: 22px;
 }
+.news-content-btn:hover{
+    background: rgb(255, 194, 57);
+    transition: all 0.5s ease;
+}
 .news-content-2{
     display: flex;
     border-radius: 24px;
@@ -401,7 +410,8 @@ th{
     background: rgb(198, 228, 214);
 }
 .donate-amount:hover{
-    background: rgb(0, 106, 80)
+    background: rgb(0, 106, 80);
+    transition: all 0.5s ease;
 }
 
 .donate-container input[type="text"]{
@@ -430,6 +440,10 @@ th{
     color: rgb(255, 255, 255);
     text-align: center;
 
+}
+.donate-btn:hover{
+    background: rgb(26, 245, 1);
+    transition: all 0.5s ease;
 }
 
 /* Subscribe Newsletter section styles */
