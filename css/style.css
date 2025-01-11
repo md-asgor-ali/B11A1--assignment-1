@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fira Sans;
+
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+/* header section styles */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 160px;
+}
+.header-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.header-btn{
+    padding: 15px 30px 15px 30px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.header-btn button{
+    border: none;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    
+
+}
+/* banner sections styles */
+#banner-section{
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    height: 560px;
+    margin: 0px 160px;
+    
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px 80px 100px;
+
+}
+.banner-title-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 16px 0px;
+}
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin: 16px 0px;
+}
+.btn{
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    width: 270px;
+    height: 56px;
+    
+}
+
+/* pillars of bd section styles*/
+.Pillars-container{
+    margin: 24px 160px;
+}
+.Pillars-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 50px 0px 32px 0px;
+}
+.cards-container{
+    display: flex;
+    gap: 24px;
+   
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+   
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+/* The Vision of Future section styles */
+
+.vision-container{
+    margin: 24px 160px;
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 50px 0px 30px 0px;
+
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+.vision-cards-container{
+    display: flex;
+    margin-top: 28px;
+}
+.card-box-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-right: 24px;
+    padding: 32px;
+}
+.card-btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border: none;
+}
+.card-box-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    margin-right: 24px;
+    padding: 32px;
+}
+.card-btn-2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border: none;
+}
+.card-box-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    margin-right: 24px;
+    padding: 32px;
+}
+.card-btn-3{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border: none;
+}
+
+
+/* Quote Section styles */
+
+.quote-section{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-position: top left;
+    margin: 24px 160px;
+    padding: 48px 24px 48px 24px;
+    
+}
+.quote-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+
+}
+.quoter{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 4px 0px;
+}
+.quoter-designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 4px 0px;
+}
+
+/* Your Opinion Matters sections styles */
+.table-container{
+    margin: 24px 160px;
+    padding: 32px;
+    
+}
+.table-caption{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 60px 0px 30px 0px;
+
+}
+table, th, td {
+    width: 100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding:32px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    
+    }
+th{
+    background-color: #96D4D4;
+}
+
+/* Recent News section styles */
+
+.recent-news-container{
+    margin: 24px 160px;
+}
+.recent-news-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 24px 0px;
+}
+.recent-news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+.news-content-1{
+    display: flex;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    gap: 32;
+    padding: 48px;
+    justify-content: space-between;
+}
+.news-content-image img{
+    border-radius: 24px;
+    margin: 0px 32px;
+}
+.news-content-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 12px 0px;
+}
+.content img{
+    margin: 12px 0px;
+}
+.news-content-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 12px;
+    text-align: left;
+}
+.news-content-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+.news-content-btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    padding: 13px 26px 13px 26px;
+    margin: 32px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.news-content-2{
+    display: flex;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    gap: 32;
+    padding: 48px;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+/* Donate Today section styles */
+.donate-container{
+    text-align: center;
+    margin: 24px 160px;
+}
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 60px 0px 35px 0px;
+
+
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.donate-card {
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+}
+.donate-amount{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0px 24px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px
+}
+.active{
+    background: rgb(198, 228, 214);
+}
+.donate-amount:hover{
+    background: rgb(0, 106, 80)
+}
+
+.donate-container input[type="text"]{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 32px 0px;
+    padding: 20px 40px 20px 40px;
+    width: 1032px;
+    height: 64px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+.donate-btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    margin: 32px 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+/* Subscribe Newsletter section styles */
+.subscribe-container{
+    text-align: center;
+    margin: 24px 160px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+}
+.subscribe-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 16px 0px;
+}
+.subscribe-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 16px 0px;
+}
+.input-email{
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.subscribe-btn{
+    width: 150px;
+    height: 56px;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    margin-left: -4px;
+}
+#footer{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin: 80px 0px;
+    padding: 50px 160px 50px 160px;
+}
+
+#footer hr{
+    margin: 32px 0px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    text-align: center;
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 16px 0px;
+
+}
+.socil-icons{
+    margin-right: 23px;
+    font-size: 50px;
+}
