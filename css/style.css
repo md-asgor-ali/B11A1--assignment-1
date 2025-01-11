@@ -21,6 +21,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
+    margin-top: 30px;
 }
 .header-btn{
     padding: 15px 30px 15px 30px;
@@ -29,6 +30,7 @@ body{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     cursor: pointer;
+    margin: 24px 0px;
 
 }
 .header-btn button{
@@ -74,7 +76,7 @@ justify-content: center;
     line-height: 67px;
     margin: 16px 0px;
 }
-.btn{
+.banner-btn{
     padding: 17px 34px 17px 34px;
     border-radius: 8px;
     background: rgb(0, 106, 80);
@@ -211,7 +213,8 @@ justify-content: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin: 12px 0px;
+    margin-top: -45px;
+    /* margin: 12px 0px; */
 
 }
 .quoter{
@@ -232,8 +235,13 @@ justify-content: center;
 /* Your Opinion Matters sections styles */
 .table-container{
     margin: 24px 160px;
-    padding: 32px;
     
+}
+.table-content{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
+    padding: 32px;
 }
 .table-caption{
     color: rgb(14, 14, 14);
@@ -243,18 +251,34 @@ justify-content: center;
     margin: 60px 0px 30px 0px;
 
 }
-table, th, td {
+table, td {
     width: 100%;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding:32px;
+    padding:24px;
     box-sizing: border-box;
     border-collapse: collapse;
     
     }
 th{
-    background-color: #96D4D4;
+    background-color: rgb(198, 228, 214);
+    text-align: left;
+    padding: 20px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+#select{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    background: rgb(198, 228, 214);
+    margin: 20px 0px;
+    /* padding: 10px 14px 10px 14px; */
+    padding: 10px;
 }
 
 /* Recent News section styles */
@@ -267,7 +291,7 @@ th{
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    margin: 24px 0px;
+    margin: 64px 0px 24px;
 }
 .recent-news-description{
     color: rgba(14, 14, 14, 0.7);
@@ -287,6 +311,8 @@ th{
 .news-content-image img{
     border-radius: 24px;
     margin: 0px 32px;
+    width: 408px;
+    height: 306px;
 }
 .news-content-title{
     color: rgba(14, 14, 14, 0.8);
