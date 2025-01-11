@@ -439,6 +439,9 @@ th{
     margin: 32px 0px;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
 
 }
 .donate-btn:hover{
